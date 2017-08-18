@@ -49,4 +49,5 @@ def crawler_twitter(contas=contas,
               "w", encoding="utf-8") as f:
         f.write(str(li_tweets))
         f.close()
+    remDr.close()
 crawler_twitter()
